@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.3">
+    <config>
+        <idioma>4</idioma>
+        <licencia></licencia>
+        <corfondo>00B75B</corfondo>
+        <corbanda>008040</corbanda>
+        <cornavega>FFFFFF</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>004000</cortexto>
+        <titulo>DINOSSAUROS</titulo>
+        <subtitulo>COLÉGIO SÃO BENTO</subtitulo>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >PARABÉNS!</correcto>
+        <incorrecto son="" modo="1" >TENTE OUTRA VEZ!</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>38</tipo>
+              <imaxe>DINOSSAUROS.jpg</imaxe>
+              <forma>0</forma>
+              <texto><![CDATA[
+<p align="left">
+<font color="#FFFFFF" face="Verdana" size="54"><br>
+<br>
+DINOSSAUROS<br>
+</font></p>
+]]></texto>
+              <ctexto>FFFFFF</ctexto>
+        </paxina>
+        <paxina id="2" >
+              <tipo>17</tipo>
+              <cabeceira>JOGO DA MEMÓRIA:</cabeceira>
+              <parellas>dinoa.png</parellas>
+              <parellas>dinob.png</parellas>
+              <parellas>dinoc.png</parellas>
+              <parellas>dinod.png</parellas>
+              <parellas>dinoe.png</parellas>
+              <parellas>dinof.png</parellas>
+              <cfondo>004000</cfondo>
+              <ctapa>000000</ctapa>
+              <tempo>8000</tempo>
+        </paxina>
+        <paxina id="3" >
+              <tipo>20</tipo>
+              <cabeceira>ARRASTE O NOME AO LUGAR CORRETO:</cabeceira>
+              <imaxe>lugar.png</imaxe>
+              <modo>3</modo>
+              <etiqueta posx="0" posy="36">ÁGUA</etiqueta>
+              <etiqueta posx="286" posy="37">PLANETA</etiqueta>
+              <etiqueta posx="0" posy="130">DINOSSAURO</etiqueta>
+              <etiqueta posx="285" posy="150">ÁRVORE</etiqueta>
+              <etiqueta posx="0" posy="231">METEORO</etiqueta>
+              <etiqueta posx="285" posy="240">FOGO</etiqueta>
+        </paxina>
+        <paxina id="4" >
+              <tipo>20</tipo>
+              <cabeceira>CLIQUE EM QUAIS LETRAS ESTÃO FALTANDO PARA COMPLETAR AS PALAVRAS:</cabeceira>
+              <imaxe>lugar3.png</imaxe>
+              <modo>9</modo>
+              <etiqueta posx="2" posy="24">GUA</etiqueta>
+              <etiqueta posx="236" posy="86">NE</etiqueta>
+              <etiqueta posx="3" posy="159">SAURO</etiqueta>
+              <etiqueta posx="241" posy="200">VO</etiqueta>
+              <etiqueta posx="2" posy="251">TE</etiqueta>
+              <etiqueta posx="244" posy="280">FO</etiqueta>
+        </paxina>
+        <paxina id="5" >
+              <tipo>14</tipo>
+              <cabeceira>COMPLETE:</cabeceira>
+              <peza imaxe="" texto="_ _ NOSSAURO" son="">di.png</peza>
+              <peza imaxe="" texto="DINOSSAU _ _" son="">ro.png</peza>
+              <peza imaxe="" texto="DINOS _ _ _ RO" son="">sau.png</peza>
+              <cfondo>84E1FD</cfondo>
+        </paxina>
+        <paxina id="6" >
+              <tipo>14</tipo>
+              <cabeceira>COMPLETE:</cabeceira>
+              <peza imaxe="" texto="DI _ _ SSAURO" son="">no.png</peza>
+              <peza imaxe="" texto="DI _ _ _ SAURO" son="">nos.png</peza>
+              <peza imaxe="" texto="DINOS _ _ URO" son="">SA.fw.png</peza>
+              <cfondo>00EAEA</cfondo>
+        </paxina>
+        <paxina id="7" >
+              <tipo>19</tipo>
+              <cabeceira>DESCUBRA A PALAVRA:</cabeceira>
+              <imaxe>PLANETA.jpg</imaxe>
+              <texto><![CDATA[]]></texto>
+              <resp texto="ABCDEFGHIJKLMNOPQRSTUVXYWZ">PLANETA</resp>
+              <modo>0</modo>
+              <forma>0</forma>
+        </paxina>
+        <paxina id="8" >
+              <tipo>19</tipo>
+              <cabeceira>DESCUBRA A PALAVRA:</cabeceira>
+              <imaxe>AGUA.jpg</imaxe>
+              <texto><![CDATA[]]></texto>
+              <resp texto="ABCDEFGHIJKLMNOPQRSTUVXYWZÁ">ÁGUA</resp>
+              <modo>0</modo>
+              <forma>0</forma>
+        </paxina>
+        <paxina id="9" >
+              <tipo>19</tipo>
+              <cabeceira>DESCUBRA A PALAVRA:</cabeceira>
+              <imaxe>DINO2.jpg</imaxe>
+              <texto><![CDATA[]]></texto>
+              <resp texto="ABCDEFGHIJKLMNOPQRSTUVXYWZ">DINOSSAURO</resp>
+              <modo>0</modo>
+              <forma>0</forma>
+        </paxina>
+        <paxina id="10" >
+              <tipo>19</tipo>
+              <cabeceira>DESCUBRA A PALAVRA:</cabeceira>
+              <imaxe>METEORO.jpg</imaxe>
+              <texto><![CDATA[]]></texto>
+              <resp texto="ABCDEFGHIJKLMNOPQRSTUVXYWZ">METEORO</resp>
+              <modo>0</modo>
+              <forma>0</forma>
+        </paxina>
+        <paxina id="11" >
+              <tipo>19</tipo>
+              <cabeceira>DESCUBRA A PALAVRA:</cabeceira>
+              <imaxe>FOGO.jpg</imaxe>
+              <texto><![CDATA[]]></texto>
+              <resp texto="ABCDEFGHIJKLMNOPQRSTUVXYWZ">FOGO</resp>
+              <modo>0</modo>
+              <forma>0</forma>
+        </paxina>
+        <paxina id="12" >
+              <tipo>19</tipo>
+              <cabeceira>DESCUBRA A PALAVRA:</cabeceira>
+              <imaxe>arvore.fw.png</imaxe>
+              <texto><![CDATA[]]></texto>
+              <resp texto="ABCDEFGHIJKLMNOPQRSTUVXYWZÁ">ÁRVORE</resp>
+              <modo>0</modo>
+              <forma>0</forma>
+        </paxina>
+        <paxina id="13" >
+              <tipo>30</tipo>
+              <cabeceira>QUANTAS ESPÉCIES DE DINOSSAUROS PASSARAM POR AQUI?</cabeceira>
+              <imaxe posx="105" posy="7">QUANTOS.jpg</imaxe>
+              <modo>1</modo>
+              <valor>60</valor>
+              <etiqueta posx="0" posy="32">9</etiqueta>
+        </paxina>
+        <paxina id="14" >
+              <tipo>1</tipo>
+              <cabeceira>RESPONDA:</cabeceira>
+              <imaxe>PEGADAS2.jpg</imaxe>
+              <texto>QUAL A DIREÇÃO QUE O DINOSSAURO ESTAVA INDO:</texto>
+              <resp texto="" valor="1">PARA FRENTE.</resp>
+              <resp texto="" valor="0">PARA TRÁS.</resp>
+              <resp texto="" valor="0">PARA ESQUERDA.</resp>
+              <resp texto="" valor="0">PARA DIREITA</resp>
+        </paxina>
+        <paxina id="15" >
+              <tipo>43</tipo>
+              <cabeceira>COMPLETE COM AS LETRAS QUE FALTAM:</cabeceira>
+              <imaxe>dinof.png</imaxe>
+              <texto>CONTRÁRIO DE PEQUENO.</texto>
+              <completa post="IOUT">GR_A_N_DE</completa>
+        </paxina>
+        <paxina id="16" >
+              <tipo>43</tipo>
+              <cabeceira>COMPLETE COM AS LETRAS QUE FALTAM:</cabeceira>
+              <imaxe>PLANETA.jpg</imaxe>
+              <texto>PLANETA EM QUE VIVEMOS.</texto>
+              <completa post="IOUJ">T_ER_R_A</completa>
+        </paxina>
+        <paxina id="17" >
+              <tipo>43</tipo>
+              <cabeceira>COMPLETE COM AS LETRAS QUE FALTAM:</cabeceira>
+              <imaxe>arvore.fw.png</imaxe>
+              <texto>POSSUI FOLHAS E TRONCO.</texto>
+              <completa post="IFUT">Á_R_V_O_RE</completa>
+        </paxina>
+        <paxina id="18" >
+              <tipo>43</tipo>
+              <cabeceira>COMPLETE COM AS LETRAS QUE FALTAM:</cabeceira>
+              <imaxe>FOGO.jpg</imaxe>
+              <texto>PODE NOS QUEIMAR.</texto>
+              <completa post="AEIU">F_O_GO</completa>
+        </paxina>
+        <paxina id="19" >
+              <tipo>43</tipo>
+              <cabeceira>COMPLETE COM AS LETRAS QUE FALTAM:</cabeceira>
+              <imaxe>PEGADAS2.jpg</imaxe>
+              <texto>PISTA DEIXADA PELOS DINOSSAUROS.</texto>
+              <completa post="AIUJ">P_E_GA_DA</completa>
+        </paxina>
+        <paxina id="20" >
+              <tipo>43</tipo>
+              <cabeceira>COMPLETE COM AS LETRAS QUE FALTAM:</cabeceira>
+              <imaxe>DENTES.jpg</imaxe>
+              <texto>USADO PARA MASTIGAR.</texto>
+              <completa post="AIU">_DE_NT_ES</completa>
+        </paxina>
+        <paxina id="21" >
+              <tipo>17</tipo>
+              <cabeceira>JOGO DA MEMÓRIA:</cabeceira>
+              <parellas>dinog.png</parellas>
+              <parellas>dinoh.png</parellas>
+              <parellas>dinoi.png</parellas>
+              <parellas>dinoj.png</parellas>
+              <parellas>dinok.png</parellas>
+              <parellas>dinol.png</parellas>
+              <cfondo>004000</cfondo>
+              <ctapa>000000</ctapa>
+              <tempo>8000</tempo>
+        </paxina>
+        <paxina id="22" >
+              <tipo>34</tipo>
+              <cabeceira>ORGANIZE AS PALAVRAS E FORME A FRASE:</cabeceira>
+              <imaxe>Screenshot_3.jpg</imaxe>
+              <forma>1</forma>
+              <modo>1</modo>
+              <completa>O|BRAQUIOSSAURO|ESTÁ|ANDANDO|PELA|FLORESTA.</completa>
+        </paxina>
+        <paxina id="23" >
+              <tipo>34</tipo>
+              <cabeceira>ORGANIZE AS PALAVRAS E FORME A FRASE:</cabeceira>
+              <imaxe>Screenshot_1.jpg</imaxe>
+              <forma>1</forma>
+              <modo>1</modo>
+              <completa>OS|DOIS|DINOSSAUROS|ESTÃO|SE|ENFRENTANDO.</completa>
+        </paxina>
+        <paxina id="24" >
+              <tipo>38</tipo>
+              <imaxe>REX.jpg</imaxe>
+              <forma>2</forma>
+              <texto><![CDATA[
+<p align="center">
+<font color="#FFFFFF" face="Verdana" size="54"><b>PARABÉNS!</b><br>
+<br>
+<b>CHEGAMOS AO FINAL DA ATIVIDADE!</b><br>
+<br>
+</font></p>
+]]></texto>
+              <ctexto>FFFFFF</ctexto>
+        </paxina>
+    </libro>
+</lim>
